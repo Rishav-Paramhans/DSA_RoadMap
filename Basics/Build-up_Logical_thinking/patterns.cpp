@@ -1,6 +1,7 @@
 /*
 Basic program examples to explore logical building through Patterns
 C++ Concepts: loops- for loop
+Why Patterns: For practsing the loops which is used in all DSA
 Pattern 1: 
     * * * *
     * * * *
