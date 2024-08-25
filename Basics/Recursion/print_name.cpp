@@ -11,7 +11,7 @@ void print_name(int i, int n, string name){
         return;
     }
     cout<< name<< endl;
-    print_name(i+1, n, name);
+    print_name(i+1, n, name);  // Here note we are doing recursion but with incremented i
     
 
 }
