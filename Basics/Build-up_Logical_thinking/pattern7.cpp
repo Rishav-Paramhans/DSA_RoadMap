@@ -19,7 +19,6 @@ Pattern 2:
 using namespace std;
 
 void pattern(int n){
-    cout<<endl;
     for(int i =0; i< n; i++){    // i =0
         for(int j = 0; j < (n -i -1); j++ ){
             cout<<" ";
