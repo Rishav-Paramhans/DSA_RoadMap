@@ -35,10 +35,8 @@ def second_largest_optimized(input_array):
     greatest_element = input_array[0]
     second_largest = -1
 
-    for i in range(len(input_array)):
-        
+    for i in range(len(input_array)): 
         if input_array[i] > second_largest:  #Candidate of interest to us
-
             if input_array[i] > greatest_element and greatest_element != input_array[i]:
                 second_largest = greatest_element
                 greatest_element = input_array[i]

@@ -15,8 +15,7 @@ def remove_duplicates(input_array):
             
     print(unique_element_list)
     #Note: This approach is good for list look-ups has TC -> O(N), so over all TC for us beacome O(N^2) but less SC as i am usinf just one more array
-    # if we use a set for look up the TC for look ups in set is O(1)
-
+    # if we use a set for look up the TC for look ups in set is O(1)       
 if __name__ =="__main__":
     arr = [5,7,7,3,4,6,4,9,10]
     remove_duplicates(arr)
